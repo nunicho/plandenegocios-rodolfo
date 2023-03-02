@@ -1,0 +1,31 @@
+.containerImgLogo {
+  width: 60px;
+  height: 60px;
+}
+
+.card {
+  background: rgb(155, 240, 236);
+  background: radial-gradient(
+    circle,
+    rgba(155, 240, 236, 1) 26%,
+    rgba(230, 253, 252, 1) 74%
+  );
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.card:hover {
+  background: rgb(155, 240, 236);
+  background: radial-gradient(
+    circle,
+    rgba(155, 240, 236, 1) 26%,
+    rgba(230, 253, 252, 1) 74%
+  );
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  box-shadow: -10px 20px 15px gray;
+  filter: none;
+  transition: 1s ease;
+}
